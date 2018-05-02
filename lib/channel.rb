@@ -1,7 +1,12 @@
 class Channel
   # Add more fields as needed
-  attr_reader :name
+  attr_reader :name, :id
   def initialize(name, id)
+    # Note that we use lazy evaluation to our advantage here
+    if name.nil? || name.empty?
+      raise ArgumentError.new("Need a name please")
+    end
+
     @name = name
     @id = id
   end
