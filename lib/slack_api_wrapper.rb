@@ -33,7 +33,7 @@ class SlackApiWrapper
   end
 
   private
-  def raise_on_error(resposne)
+  def self.raise_on_error(response)
     unless response["ok"]
       raise SlackError.new(response["error"])
     end
