@@ -1,0 +1,251 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://slack.com/api/channels.list?token=<FISH_TACOS>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4781'
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 02 May 2018 17:45:46 GMT
+      Server:
+      - Apache
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Referrer-Policy:
+      - no-referrer
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      Pragma:
+      - no-cache
+      X-Accepted-Oauth-Scopes:
+      - channels:read,read
+      X-Xss-Protection:
+      - '0'
+      X-Slack-Req-Id:
+      - 6ab5807d-c6da-4651-8abc-ac089373e0ee
+      X-Slack-Backend:
+      - h
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Via:
+      - haproxy-www-ih6l
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 6ba12aeff47e3e7677e084594bfce5e1.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - Ued6yxHbA29R8waBS2kI7KlFceoTMTosROW8EAyGMak92cnbH8xlcQ==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"channels":[{"id":"C9BBLQU6S","name":"99_problems","is_channel":true,"created":1518811033,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U86U19L12","name_normalized":"99_problems","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Let''s
+        do one practice problem per week together! Problems will be related to the
+        material we covered this week or weeks prior. Also: anyone can submit a problem
+        that they are working on or think is interesting.","creator":"U86U19L12","last_set":1518811033},"previous_names":[],"num_members":32},{"id":"C958VBQS3","name":"ada","is_channel":true,"created":1517864266,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U8UN1D0UV","name_normalized":"ada","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":0},{"id":"CA2P7QANN","name":"ada_aww","is_channel":true,"created":1523049808,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U8BLE4ME0","name_normalized":"ada_aww","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Place
+        to share aww worthy content to uplift us all :)","creator":"U8BLE4ME0","last_set":1523049808},"previous_names":[],"num_members":0},{"id":"C87TUUKT5","name":"ada-announcements","is_channel":true,"created":1512075569,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U84L5QBFF","name_normalized":"ada-announcements","is_shared":false,"is_org_shared":false,"is_member":true,"is_private":false,"is_mpim":false,"members":["U83UWV3DE","U84L5QBFF","U866Q8S56","U866XQ36C","U867VF8NL","U86BEJX4Z","U86CQJR63","U86PB58TS","U86Q86VK5","U86QWAYTD","U86RA8WUB","U86S2B1AN","U86S33HJN","U86SBEC03","U86SD8610","U86SVBC9G","U86T47FKL","U86TH1RGU","U86U19L12","U86U4DU66","U86U9JHMJ","U86UPSWN5","U87176YSZ","U8717836Z","U8718ECNR","U8723R9DG","U876KQ7L4","U87857FPA","U879F4D6E","U879SEDUL","U87A4S3PC","U87EJ7KCH","U87FPB6JG","U87J2CHV4","U87V440H5","U87VB3TK9","U880KSTB7","U880SJZ9D","U8812QDQX","U88250Q8K","U88269083","U884CHYCE","U887H8LK1","U88AXJBEJ","U88BB8C2K","U8905DUAJ","U892QJ15M","U893U1RB9","U89GA6SKU","U89HSHKEE","U8BLE4ME0","U8BLYD41E","U8CDH0AVD","U8D5NQX7E","U8E44DC07","U8UN1D0UV","U8YBHKG0Z","U96TZTU67"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":58},{"id":"C9ZU9741Y","name":"ada-pods","is_channel":true,"created":1522702239,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U86UPSWN5","name_normalized":"ada-pods","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":13},{"id":"CA81XFB97","name":"ampers","is_channel":true,"created":1524005827,"is_archived":true,"is_general":false,"unlinked":0,"creator":"U86U19L12","name_normalized":"ampers","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":0},{"id":"C9421M41J","name":"ampersands","is_channel":true,"created":1517849756,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U8D5NQX7E","name_normalized":"ampersands","is_shared":false,"is_org_shared":false,"is_member":true,"is_private":false,"is_mpim":false,"members":["U867VF8NL","U86PB58TS","U86QWAYTD","U86RA8WUB","U86S2B1AN","U86SBEC03","U86SD8610","U86SVBC9G","U86T47FKL","U86TH1RGU","U86U4DU66","U86U9JHMJ","U86UPSWN5","U8718ECNR","U8723R9DG","U876KQ7L4","U87857FPA","U879F4D6E","U879SEDUL","U87A4S3PC","U87EJ7KCH","U87V440H5","U87VB3TK9","U880KSTB7","U880SJZ9D","U8812QDQX","U88269083","U884CHYCE","U887H8LK1","U88AXJBEJ","U88BB8C2K","U8905DUAJ","U892QJ15M","U893U1RB9","U89HSHKEE","U8BLE4ME0","U8BLYD41E","U8CDH0AVD","U8D5NQX7E","U8E44DC07","U8LTQ89PE","U8UN1D0UV","U8YBHKG0Z","U968B3883"],"topic":{"value":"<https:\/\/docs.google.com\/document\/d\/1hRuy-ENh5UJnSvRm8PM0Re-zx3d9078yIWQUZQH2O-c\/edit>","creator":"U86SD8610","last_set":1519433886},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":44},{"id":"C976J33MG","name":"babydragon","is_channel":true,"created":1518290116,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U88AXJBEJ","name_normalized":"babydragon","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Share
+        codes","creator":"U88AXJBEJ","last_set":1518290117},"previous_names":[],"num_members":4},{"id":"CA3EGRCHJ","name":"craftyadies","is_channel":true,"created":1523297324,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U89HSHKEE","name_normalized":"craftyadies","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"craft
+        night","creator":"U89HSHKEE","last_set":1523297325},"previous_names":[],"num_members":19},{"id":"C95C8QE9H","name":"cs-fundamentals","is_channel":true,"created":1518027643,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U86CQJR63","name_normalized":"cs-fundamentals","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"<https:\/\/github.com\/Ada-Developers-Academy\/textbook-curriculum\/tree\/master\/04-cs-fundamentals#classroom---cohort-9>","creator":"U86CQJR63","last_set":1521075577},"purpose":{"value":"To
+        have conversations related to data structures, algorithms and other CS Fundamentals
+        topic. Quick link: <https:\/\/github.com\/Ada-Developers-Academy\/textbook-curriculum\/tree\/master\/04-cs-fundamentals\/classroom>","creator":"U86CQJR63","last_set":1518027643},"previous_names":[],"num_members":50},{"id":"C85J7GHDM","name":"general","is_channel":true,"created":1511391259,"is_archived":false,"is_general":true,"unlinked":0,"creator":"U84L5QBFF","name_normalized":"general","is_shared":false,"is_org_shared":false,"is_member":true,"is_private":false,"is_mpim":false,"members":["U83UWV3DE","U84L5QBFF","U866Q8S56","U866XQ36C","U867VF8NL","U86BEJX4Z","U86CQJR63","U86PB58TS","U86Q86VK5","U86QWAYTD","U86RA8WUB","U86S2B1AN","U86S33HJN","U86SBEC03","U86SD8610","U86SVBC9G","U86T47FKL","U86TH1RGU","U86U19L12","U86U4DU66","U86U9JHMJ","U86UPSWN5","U87176YSZ","U8717836Z","U8718ECNR","U8723R9DG","U876KQ7L4","U87857FPA","U879F4D6E","U879SEDUL","U87A4S3PC","U87EJ7KCH","U87FPB6JG","U87J2CHV4","U87UBM727","U87V440H5","U87VB3TK9","U880KSTB7","U880SJZ9D","U8812QDQX","U88250Q8K","U88269083","U884CHYCE","U887H8LK1","U88AXJBEJ","U88BB8C2K","U88N9DYCQ","U8905DUAJ","U892QJ15M","U893U1RB9","U89GA6SKU","U89HSHKEE","U8BLE4ME0","U8BLYD41E","U8CDH0AVD","U8D5NQX7E","U8E44DC07","U8GBWPZHQ","U8GHXMPRR","U8LH7NP40","U8LME6U2D","U8LTQ89PE","U8NT3GMCJ","U8UN1D0UV","U8YBHKG0Z","U968B3883","U96TZTU67"],"topic":{"value":"Company-wide
+        announcements and work-based matters","creator":"U84L5QBFF","last_set":1511391259},"purpose":{"value":"This
+        channel is for workspace-wide communication and announcements. All members
+        are in this channel.","creator":"U84L5QBFF","last_set":1511391259},"previous_names":[],"num_members":66},{"id":"C8SGMFK39","name":"git_and_github","is_channel":true,"created":1515688236,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U86SD8610","name_normalized":"git_and_github","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":["U86SD8610","U876KQ7L4","U879F4D6E","U87V440H5","U884CHYCE","U8BLYD41E","U8E44DC07"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":7},{"id":"CA0SDNBRU","name":"grokking_algo_club","is_channel":true,"created":1522716092,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U88269083","name_normalized":"grokking_algo_club","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Discussion
+        and problem-sharing for the Grokking Algorithms book discussion group","creator":"U88269083","last_set":1522716093},"previous_names":[],"num_members":23},{"id":"C92V1ABDE","name":"happy-place","is_channel":true,"created":1517765165,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U86SD8610","name_normalized":"happy-place","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":["U867VF8NL","U86S2B1AN","U86SBEC03","U86SD8610","U86TH1RGU","U8723R9DG","U87857FPA","U879F4D6E","U87V440H5","U87VB3TK9","U880KSTB7","U880SJZ9D","U8812QDQX","U88269083","U887H8LK1","U88BB8C2K","U8BLYD41E","U8CDH0AVD","U8E44DC07","U8UN1D0UV"],"topic":{"value":"A
+        place for happy things and self care! :star2:","creator":"U86SD8610","last_set":1518128033},"purpose":{"value":"Cute
+        puppies, cute kittens, unicorns, inspiration, sunny days, summer, flowers\u2026
+        you know, your basic happy place. :slightly_smiling_face:","creator":"U86SD8610","last_set":1517765166},"previous_names":[],"num_members":20},{"id":"C86J7L08Y","name":"housing","is_channel":true,"created":1511977291,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U884CHYCE","name_normalized":"housing","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":["U866XQ36C","U86CQJR63","U86QWAYTD","U86TH1RGU","U8717836Z","U8718ECNR","U87FPB6JG","U884CHYCE","U887H8LK1","U892QJ15M","U89GA6SKU","U8BLYD41E"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Connect
+        Adies looking for roommates\/housing","creator":"U884CHYCE","last_set":1511994929},"previous_names":[],"num_members":12},{"id":"C97D1L01J","name":"interfaith","is_channel":true,"created":1518397604,"is_archived":true,"is_general":false,"unlinked":0,"creator":"U86UPSWN5","name_normalized":"interfaith","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":0},{"id":"C99C13A9Y","name":"interfaiths","is_channel":true,"created":1518653517,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U86UPSWN5","name_normalized":"interfaiths","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Faith-based
+        support &amp; resources for ALL believers &amp; beliefs","creator":"U86UPSWN5","last_set":1518653518},"previous_names":[],"num_members":3},{"id":"C884VHDFX","name":"introductions","is_channel":true,"created":1512075677,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U84L5QBFF","name_normalized":"introductions","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":["U83UWV3DE","U84L5QBFF","U866Q8S56","U866XQ36C","U867VF8NL","U86BEJX4Z","U86CQJR63","U86PB58TS","U86Q86VK5","U86QWAYTD","U86RA8WUB","U86S2B1AN","U86SBEC03","U86SD8610","U86SVBC9G","U86T47FKL","U86TH1RGU","U86U19L12","U86U4DU66","U86U9JHMJ","U86UPSWN5","U87176YSZ","U8717836Z","U8718ECNR","U8723R9DG","U876KQ7L4","U87857FPA","U879F4D6E","U879SEDUL","U87A4S3PC","U87EJ7KCH","U87FPB6JG","U87V440H5","U87VB3TK9","U880KSTB7","U880SJZ9D","U8812QDQX","U88250Q8K","U88269083","U884CHYCE","U887H8LK1","U88AXJBEJ","U88BB8C2K","U8905DUAJ","U892QJ15M","U893U1RB9","U89GA6SKU","U89HSHKEE","U8BLYD41E","U8E44DC07","U8GHXMPRR","U8LTQ89PE"],"topic":{"value":"<https:\/\/docs.google.com\/document\/d\/1Xg6O_77iGwMbA4wz0g2vADcRKc0pUNdci3eon1UlwDo\/edit?usp=sharing>","creator":"U86SD8610","last_set":1513406943},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":52},{"id":"C86QNS33J","name":"intros","is_channel":true,"created":1512001945,"is_archived":true,"is_general":false,"unlinked":0,"creator":"U86UPSWN5","name_normalized":"intros","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Tell
+        us who you are!\nINTROS\nPreferred Name:\nPreferred Pronouns:\nAge:\nCurrent
+        City:\nCurrent Job:\nInterests:\nWelcome Message:","creator":"U86UPSWN5","last_set":1512002335},"previous_names":[],"num_members":0},{"id":"CA7DP7M1V","name":"mandarin","is_channel":true,"created":1523626868,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U86T47FKL","name_normalized":"mandarin","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"To
+        learn and eat :tangerine: :grin:","creator":"U86T47FKL","last_set":1523626869},"previous_names":[],"num_members":13},{"id":"C96GQ8ZBR","name":"misc_events","is_channel":true,"created":1518027302,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U8723R9DG","name_normalized":"misc_events","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Any
+        sort of non-tech events\/hangouts y''all want to share or plan!","creator":"U8723R9DG","last_set":1518027302},"previous_names":[],"num_members":37},{"id":"C871PMBBP","name":"move_to_seattle","is_channel":true,"created":1511926604,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U86SD8610","name_normalized":"move_to_seattle","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":["U866XQ36C","U867VF8NL","U86CQJR63","U86QWAYTD","U86RA8WUB","U86S2B1AN","U86SBEC03","U86SD8610","U86TH1RGU","U86U9JHMJ","U87176YSZ","U8717836Z","U8718ECNR","U880SJZ9D","U88250Q8K","U884CHYCE","U887H8LK1","U8BLYD41E"],"topic":{"value":"<https:\/\/github.com\/Ada-Developers-Academy\/Guide-for-Transplants>","creator":"U86SD8610","last_set":1512879331},"purpose":{"value":"Recommendations
+        for moving to Seattle","creator":"U86SD8610","last_set":1511926604},"previous_names":[],"num_members":18},{"id":"C938Q8ZD0","name":"music","is_channel":true,"created":1517611152,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U87EJ7KCH","name_normalized":"music","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":["U86QWAYTD","U8723R9DG","U87857FPA","U87EJ7KCH","U8812QDQX","U88269083","U8BLYD41E","U8E44DC07"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Posting
+        songs \/ albums \/ artists","creator":"U87EJ7KCH","last_set":1517611153},"previous_names":[],"num_members":8},{"id":"C96NWR887","name":"octo","is_channel":true,"created":1518048715,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U89HSHKEE","name_normalized":"octo","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":1},{"id":"CAG15QT0T","name":"octos_api_testing","is_channel":true,"created":1525127538,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U87176YSZ","name_normalized":"octos_api_testing","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":6},{"id":"C9429H8NQ","name":"octothorpes","is_channel":true,"created":1517850366,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U8YBHKG0Z","name_normalized":"octothorpes","is_shared":false,"is_org_shared":false,"is_member":true,"is_private":false,"is_mpim":false,"members":["U866Q8S56","U866XQ36C","U867VF8NL","U86BEJX4Z","U86Q86VK5","U86RA8WUB","U86S2B1AN","U86S33HJN","U86SBEC03","U86SD8610","U8YBHKG0Z"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":37},{"id":"C9461H875","name":"octothorps","is_channel":true,"created":1517870814,"is_archived":true,"is_general":false,"unlinked":0,"creator":"U866XQ36C","name_normalized":"octothorps","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":0},{"id":"C8ATAAHHQ","name":"parentals","is_channel":true,"created":1512608290,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U88250Q8K","name_normalized":"parentals","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":["U866Q8S56","U86BEJX4Z","U86RA8WUB","U86S2B1AN","U86T47FKL","U87A4S3PC","U88250Q8K","U88BB8C2K","U892QJ15M","U8E44DC07"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Advice
+        on area activities for kidlets or how to find a babysitter, daycare, etc.
+        Also a channel where we can support and motivate each other as parents going
+        through the Ada program!","creator":"U86S2B1AN","last_set":1515523095},"previous_names":[],"num_members":10},{"id":"C9BGL7M7G","name":"partytime_excellent","is_channel":true,"created":1518851863,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U884CHYCE","name_normalized":"partytime_excellent","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Get
+        togethers. Happy hours. Etc etc.","creator":"U884CHYCE","last_set":1518851864},"previous_names":[],"num_members":50},{"id":"C87EUNQP3","name":"pre-ada-homework","is_channel":true,"created":1512075586,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U84L5QBFF","name_normalized":"pre-ada-homework","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":["U83UWV3DE","U84L5QBFF","U866Q8S56","U866XQ36C","U867VF8NL","U86BEJX4Z","U86CQJR63","U86Q86VK5","U86QWAYTD","U86RA8WUB","U86S2B1AN","U86SBEC03","U86SD8610","U86SVBC9G","U86TH1RGU","U86U19L12","U86U4DU66","U86U9JHMJ","U86UPSWN5","U87176YSZ","U8717836Z","U8718ECNR","U876KQ7L4","U87857FPA","U879F4D6E","U879SEDUL","U87A4S3PC","U87FPB6JG","U87V440H5","U880KSTB7","U880SJZ9D","U8812QDQX","U88250Q8K","U88269083","U884CHYCE","U887H8LK1","U88AXJBEJ","U88BB8C2K","U892QJ15M","U893U1RB9","U89GA6SKU","U8BLYD41E","U8E44DC07","U8UN1D0UV"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":44},{"id":"C95PPS1C1","name":"procrastibuddies","is_channel":true,"created":1518127880,"is_archived":true,"is_general":false,"unlinked":0,"creator":"U879F4D6E","name_normalized":"procrastibuddies","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"finding
+        solutions to procrastination and people to meet with for encouragement","creator":"U879F4D6E","last_set":1518127881},"previous_names":[],"num_members":0},{"id":"C96BBTHCM","name":"procrastibudy","is_channel":true,"created":1518119615,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U8BLYD41E","name_normalized":"procrastibudy","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"procrastinator
+        help\/meetups","creator":"U8BLYD41E","last_set":1518119616},"previous_names":["name_pending"],"num_members":17},{"id":"C84HA1ZNG","name":"random","is_channel":true,"created":1511391259,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U84L5QBFF","name_normalized":"random","is_shared":false,"is_org_shared":false,"is_member":true,"is_private":false,"is_mpim":false,"members":["U83UWV3DE","U84L5QBFF","U866Q8S56","U866XQ36C","U867VF8NL","U86BEJX4Z","U86CQJR63","U86PB58TS","U86Q86VK5","U86QWAYTD","U86RA8WUB","U86S2B1AN","U86S33HJN","U86SBEC03","U86SD8610","U86SVBC9G","U86T47FKL","U86TH1RGU","U86U19L12","U86U4DU66","U86U9JHMJ","U86UPSWN5","U87176YSZ","U8717836Z","U8718ECNR","U8723R9DG","U876KQ7L4","U87857FPA","U879F4D6E","U879SEDUL","U87A4S3PC","U87EJ7KCH","U87FPB6JG","U87J2CHV4","U87UBM727","U87V440H5","U87VB3TK9","U880KSTB7","U880SJZ9D","U8812QDQX","U88250Q8K","U88269083","U884CHYCE","U887H8LK1","U88AXJBEJ","U88BB8C2K","U88N9DYCQ","U8905DUAJ","U892QJ15M","U893U1RB9","U89GA6SKU","U89HSHKEE","U8BLE4ME0","U8BLYD41E","U8CDH0AVD","U8D5NQX7E","U8E44DC07","U8GHXMPRR","U8LME6U2D","U8LTQ89PE","U8NT3GMCJ","U8UN1D0UV","U8YBHKG0Z","U968B3883","U96TZTU67"],"topic":{"value":"Non-work
+        banter and water cooler conversation","creator":"U84L5QBFF","last_set":1511391259},"purpose":{"value":"A
+        place for non-work-related flimflam, faffing, hodge-podge or jibber-jabber
+        you''d prefer to keep out of more focused work-related channels.","creator":"U84L5QBFF","last_set":1511391259},"previous_names":[],"num_members":64},{"id":"CA6G310NQ","name":"require_relative_help","is_channel":true,"created":1523663819,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U86U19L12","name_normalized":"require_relative_help","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"This
+        is a channel to 1) offer help if you are done with your project or work for
+        the week or 2) you are looking for help and don''t know who''s available","creator":"U86U19L12","last_set":1523663924},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":20},{"id":"C9W63TECW","name":"scary-movie-tuesday","is_channel":true,"created":1521838333,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U88269083","name_normalized":"scary-movie-tuesday","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"For
+        planning a mid-week movie night during the March break.  Post the stuff you''d
+        like to see!","creator":"U88269083","last_set":1521838333},"previous_names":[],"num_members":8},{"id":"CAH20EYEA","name":"slack-apitesting","is_channel":true,"created":1525133270,"is_archived":true,"is_general":false,"unlinked":0,"creator":"U86RA8WUB","name_normalized":"slack-apitesting","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":0},{"id":"CAFUPMM5H","name":"stacks_api_testing","is_channel":true,"created":1525120365,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U86SD8610","name_normalized":"stacks_api_testing","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":12},{"id":"CA95VS13L","name":"sweatsy","is_channel":true,"created":1524076887,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U884CHYCE","name_normalized":"sweatsy","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Making
+        the most butt-kickingest sweat-related retailor on the planet. Team: Kiera,
+        Sam, Maja, Brandy","creator":"U884CHYCE","last_set":1524076888},"previous_names":[],"num_members":4},{"id":"C9NDH0Y3G","name":"tea_at_empress","is_channel":true,"created":1520625337,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U879F4D6E","name_normalized":"tea_at_empress","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"High
+        tea! Yes, please!","creator":"U86SD8610","last_set":1520625442},"purpose":{"value":"For
+        anyone interested in trying to go to Victoria, Canada during our week break","creator":"U879F4D6E","last_set":1520629422},"previous_names":[],"num_members":6},{"id":"C8HSBH1LH","name":"tech-events","is_channel":true,"created":1513928943,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U8GBWPZHQ","name_normalized":"tech-events","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":["U866Q8S56","U866XQ36C","U867VF8NL","U86CQJR63","U86PB58TS","U86Q86VK5","U86QWAYTD","U86RA8WUB","U86S2B1AN","U86S33HJN","U86SBEC03","U86SD8610","U86SVBC9G","U86T47FKL","U86TH1RGU","U86U19L12","U86U4DU66","U86U9JHMJ","U86UPSWN5","U87176YSZ","U8717836Z","U8718ECNR","U8723R9DG","U876KQ7L4","U87857FPA","U879F4D6E","U87A4S3PC","U87EJ7KCH","U87FPB6JG","U87V440H5","U87VB3TK9","U880KSTB7","U880SJZ9D","U88250Q8K","U88269083","U884CHYCE","U887H8LK1","U88AXJBEJ","U88BB8C2K","U8905DUAJ","U89GA6SKU","U89HSHKEE","U8BLE4ME0","U8BLYD41E","U8CDH0AVD","U8E44DC07","U8GBWPZHQ","U8LTQ89PE","U8UN1D0UV"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":49},{"id":"CAGCPB64A","name":"test-api-channel","is_channel":true,"created":1525185943,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U8LTQ89PE","name_normalized":"test-api-channel","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"Happy
+        testing!!","creator":"U86SD8610","last_set":1525206303},"purpose":{"value":"To
+        test APIs! Please! Thanks!","creator":"U86SD8610","last_set":1525205983},"previous_names":[],"num_members":35},{"id":"C9DCQ5J22","name":"the-art-world","is_channel":true,"created":1519229245,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U8812QDQX","name_normalized":"the-art-world","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"to
+        discuss anything art related, favorite artists; painting, drawing, etc., galleries","creator":"U8812QDQX","last_set":1519229246},"previous_names":[],"num_members":6},{"id":"C92V64X89","name":"tools","is_channel":true,"created":1517711751,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U86SD8610","name_normalized":"tools","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":["U867VF8NL","U86CQJR63","U86PB58TS","U86Q86VK5","U86QWAYTD","U86S2B1AN","U86SBEC03","U86SD8610","U86SVBC9G","U86T47FKL","U86TH1RGU","U86U4DU66","U86UPSWN5","U8717836Z","U8718ECNR","U8723R9DG","U876KQ7L4","U87857FPA","U879F4D6E","U87EJ7KCH","U87V440H5","U87VB3TK9","U880KSTB7","U880SJZ9D","U88250Q8K","U88269083","U884CHYCE","U887H8LK1","U88AXJBEJ","U8905DUAJ","U89HSHKEE","U8BLE4ME0","U8BLYD41E","U8CDH0AVD","U8E44DC07","U8UN1D0UV"],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"Tools
+        that can be used to improve code life","creator":"U86SD8610","last_set":1517711752},"previous_names":[],"num_members":36},{"id":"CA3PYF7PC","name":"white-allyship-group","is_channel":true,"created":1523305595,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U880KSTB7","name_normalized":"white-allyship-group","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"","creator":"","last_set":0},"previous_names":[],"num_members":2},{"id":"CA3FALCUE","name":"white-caucus-group","is_channel":true,"created":1523035005,"is_archived":false,"is_general":false,"unlinked":0,"creator":"U880KSTB7","name_normalized":"white-caucus-group","is_shared":false,"is_org_shared":false,"is_member":false,"is_private":false,"is_mpim":false,"members":[],"topic":{"value":"","creator":"","last_set":0},"purpose":{"value":"To
+        talk about racial equity in Ada, while constructively addressing issues of
+        systemic racism and bias.","creator":"U880KSTB7","last_set":1523035006},"previous_names":[],"num_members":0}]}'
+    http_version: 
+  recorded_at: Wed, 02 May 2018 17:45:46 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?channel=test-api-channel&text=test%20message&token=<FISH_TACOS>
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '165'
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 02 May 2018 18:13:35 GMT
+      Server:
+      - Apache
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Referrer-Policy:
+      - no-referrer
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      Pragma:
+      - no-cache
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Xss-Protection:
+      - '0'
+      X-Slack-Req-Id:
+      - 11ca9147-7835-4974-a9b6-a9c6d18971e9
+      X-Slack-Backend:
+      - h
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Via:
+      - haproxy-www-mech
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 ce270f4a88edde7438864bc44406e83a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - xy7SmylaJGeUslIweay2GFF5FRBibzuYzrd5isrj1yyvBBXPlL88PQ==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"channel":"CAGCPB64A","ts":"1525284815.000788","message":{"text":"test
+        message","username":"Slack API Tester","bot_id":"BAGJZE1V1","type":"message","subtype":"bot_message","ts":"1525284815.000788"}}'
+    http_version: 
+  recorded_at: Wed, 02 May 2018 18:13:35 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?channel=this-channel-dne-dont-create-this-channel-please&text=test%20message&token=<FISH_TACOS>
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '60'
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 02 May 2018 18:13:36 GMT
+      Server:
+      - Apache
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Referrer-Policy:
+      - no-referrer
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      Pragma:
+      - no-cache
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Xss-Protection:
+      - '0'
+      X-Slack-Req-Id:
+      - 2ef1f098-1ee3-4269-9559-f75429ba55f1
+      X-Slack-Backend:
+      - h
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Via:
+      - haproxy-www-w6k7
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 ce270f4a88edde7438864bc44406e83a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - MDkoy49C2Wp0tquFngOwO18oq97mEmjDcSEHjMN5OHBS5jh8y-FBXg==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":false,"error":"channel_not_found"}'
+    http_version: 
+  recorded_at: Wed, 02 May 2018 18:13:36 GMT
+recorded_with: VCR 4.0.0

@@ -23,8 +23,6 @@ class SlackApiWrapper
     # Construct the full URL from the endpoint and the query params
     full_url = URI.encode("#{url_root}?channel=#{channel_name}&text=#{message}&token=#{token}")
 
-    puts "About to send request to #{full_url}"
-
     response = HTTParty.post(full_url)
 
     raise_on_error(response)
