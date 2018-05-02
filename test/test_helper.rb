@@ -18,6 +18,12 @@ Minitest::Reporters.use!(
   Minitest.backtrace_filter
 )
 
+# Fix for flubbed upgrade of the Rails version
+# from a previous cohort
+# https://github.com/rails/rails/issues/31324
+if ActionPack::VERSION::STRING >= "5.2.0"
+  Minitest::Rails::TestUnit = Rails::TestUnit
+end
 
 class ActiveSupport::TestCase
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
